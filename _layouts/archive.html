@@ -1,0 +1,15 @@
+---
+layout: layout
+title: archives
+---
+
+<div class="hentry" id="article-{{ page.id }}">
+  <h2 class="entry-title"><a href="{{ page.url }}">{{ page.title }}</a>
+  </h2>
+
+{% for post in site.posts %}
+  <p><a href="{{ post.url }}">{{ post.title }}, on {{ post.date | date: %B %e, %Y }}</a>
+  </p>
+{% endfor %}
+
+</div>
