@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+ Application.css
+ Imports all stylesheets; sets defaults for bare elements
+ --------------------------------------------------------------*/
+
+@import 'reset.css';
+@import 'layout.css';
+@import 'content.css';
+@import 'syntax.css';
+@import 'local.css';
+
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap !important;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
