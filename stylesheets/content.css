@@ -102,11 +102,11 @@ div.sidebar-node h3 {
   font-size: 125%;
   padding: 3px 0px 2px 12px;
   border-bottom: 1px solid #aaa;
-  background: url(tl.gif) no-repeat top left;
+  background: url(images/tl.gif) no-repeat top left;
 }
 
 div.sidebar-text { 
-  background: url(br.gif) no-repeat bottom right; 
+  background: url(images/br.gif) no-repeat bottom right; 
   padding: 8px 12px 5px 12px; 
 }
 div.sidebar-text p  { margin-bottom: 10px; }
@@ -130,7 +130,7 @@ legend { display:none; }
 form#comment-form { 
   margin-bottom: 15px; 
   padding: 10px 15px; 
-  background: url(meta-bg.png) repeat-x; border-top: 1px dotted #aaa; 
+  background: url(images/meta-bg.png) repeat-x; border-top: 1px dotted #aaa; 
 }
 form#comment-form p	   { margin-bottom: 12px; }
 form#comment-form textarea { width: 440px; height: 110px; }
