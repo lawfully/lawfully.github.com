@@ -1,0 +1,6 @@
+---
+layout: post
+title: first test post
+---
+
+이렇게 해서 드디어 처음으로 "github":https://github.com 에 포스트를 써 본다.  아마도 잘 되겠지...
