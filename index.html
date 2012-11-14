@@ -7,7 +7,7 @@ title: lawfully on github
 
 <p>I'm still making it.  This is just getting better.</p>
 
-{% for post in site.posts %}
+{% for post in site.posts limit:10 %}
 <div class="hentry" id="article-{{ post.id }}">
   <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a>
   </h2>

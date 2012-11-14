@@ -1,6 +1,9 @@
 ---
 layout: post
-title: first test post
+title: first post
 ---
 
-이렇게 해서 드디어 처음으로 "github":https://github.com 에 포스트를 써 본다.  아마도 잘 되겠지...
+It's easier to port this *reddish* theme to jekyll, because it's for mephisto and both use the liquid.
+
+
+I did this to illustrate my posts (in Korean) on how to create a "jekyll":https://github.com/mojombo/jekyll based blog on "github":https://github.com.  It works, sort of.  That is my point.
