@@ -10,3 +10,11 @@ Which I did, of course.  It wasn't particularly difficult if you ask me, but I c
 Now, I want to try things out.  I could practice my writing or write about something which would be interesting to others.  I'm still thinking what that would be.
 
 In the meantime, I changed my mac mini.  It's an old macmini3.1, dubbed *early 2009* but since I've upgraded it to 8G memory and 1G HD (just because I didn't want to pull the thing apart yet another time) and it works charm.  It's amazing to see what a little more memory can do.
+
+Somehow, I didn't notice the fine print saying that when you try to use *osxkeychain,* make sure to use the ssh provided by mac, not something like macports.  That's one of the risks of knowing it because I've done that before.  You don't read fine prints.  So, I'm stuck with some passphrase I don't want to remember.  In such case, if you wish to change RSA passphrase, enter:
+
+<pre><code>
+$ ssh-keygen -f id_rsa -p
+</code></pre>
+
+I wonder if the above *html* portion be recognized when I use textile on jekyll.
